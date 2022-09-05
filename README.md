@@ -18,7 +18,7 @@ The tech stack used is: Python, requests, fastAPI, HTML, CSS, Jinja2
 ## Project code
 Project code along with intermediate scrapped data are in the `src/` folder. 
 To run the service with uvicorn from the root of the repo:
-```bash
+```cmd
 cd src
 conda activate quadratic_eq
 uvicorn run main:app
