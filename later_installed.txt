@@ -1,0 +1,4 @@
+conda install -c conda-forge tabula-py
+pip install PyMuPDF
+pip install fastapi
+pip install uvicorn
