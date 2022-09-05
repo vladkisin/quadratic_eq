@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Main Page</title>
+    </head>
+    <body>  
+        <style>
+            h3 {
+                color: green;
+            }
+        </style>
+        <h3> Let's solve quadratic! </h3>
+        <form action="/draw" method="post" 
+                enctype="multipart/form-data">
+            <h5>Enter the coefficients</h5>
+            a: <input type="number" name="a"> <br><br>
+            b: <input type="number" name="b"> <br><br>
+            c: <input type="number" name="c"> <br><br>
+            <button type="submit">Plot!</button>
+        </form>
+    </body>
+</html>

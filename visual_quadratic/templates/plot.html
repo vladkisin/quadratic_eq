@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Main Page</title>
+</head>
+<body>
+    <style>
+        h3 {
+            color: green;
+        }
+    </style>
+    <h3> Quadratic solution: </h3>
+    <form action="/draw" method="post" 
+            enctype="multipart/form-data">
+    <h5> Coefficients entered </h5>
+    <h5> {{ numbers }} </h5>
+    <img src="data:image/png;base64,  {{picture}}", alt="'plot">
+</form>
+<a href="/">Go back to the main page</a>       
+</body>
+</html>
